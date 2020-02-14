@@ -211,7 +211,7 @@ p.feature{
 #carousel .slide {
     display: table-cell;
 }
-img.image{
+.slide img{
     height:200px;
     width: auto;
 }

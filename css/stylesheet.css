@@ -169,7 +169,7 @@ section p.reasons{
 }
 
 
-/**************************************************** CSS for the Pages****************************************************88 */
+/**************************************************** CSS for the Pages*****************************************************/
 .imagestogether{
     display:flex;
     justify-content: space-around;
@@ -198,6 +198,25 @@ p.feature{
 
 }
 
+#carousel {
+    width: 80%;
+    height: 300px;
+    margin: 100px auto;
+    background: #A3CBE0;
+    border: 2px solid #000;
+    overflow: auto;
+    box-shadow: 0 0 10px #000;
+}
+
+#carousel .slide {
+    display: table-cell;
+}
+img.image{
+    height:200px;
+    width: auto;
+}
+
+/**************************************************** FOOTER *****************************************************/
 
 #skillimg{
     width:50%;
